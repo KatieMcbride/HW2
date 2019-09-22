@@ -1,56 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./css/main.css" />
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Katie McBride Personal Website</title>
-    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="./css/main.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Chicago Food Guide</title>
 </head>
-<body class="body">
-    <!-- header -->
-    <header class="header">
-        <logo>Katie McBride</logo>
-        <nav>
-            <a href="./index.html" class="buttonnav">Home</a>
-            <a href="./portfolio.html" class="buttonnav" >Portfolio</a>
-            <a href="./contact.html" class="buttonnav">Contact</a>
-        </nav>
-    </header>
+<body>
 
-    <!--Subheader-->
-    <section class="subheader-main">
-        <div class="subheader-content">
-            <h1 class="top-greeting">Hey there.</h1>
-            <p class="inside-type"> Welcome, glad to have you here. My name is Katie and I am a full-stack web developer based out of Chicago.</p>
-        </div> 
-    </section>
-    
-    <!-- Body -->
-    <section class="block-area">
-        <img src="./img/KMcBride-km557-20170118-2 (2).jpg" class="index-image" />
-        <p class="info-header">School</p>
-        <p>I am currently a student at Northwestern University's Web Development Bootcamp.Upon graduation I will be knowledgable in:</p>
-        <p>HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, Bookshelf.js, MongoDB, MySQL, Command Line, Git, Java</p>
-        <p class="info-header">Career Statement</p>
-    </section>
+<!-- Image and text -->
 
-    <section class="row-contact">
-        <p class="inside-personal">Offline</p>
-        <p class="inside-subheading">What I'm reading...</p>
-        <p class="inside-subheading-2">Where the Crawdads Sing,  Big Little Lies,  Becoming</p>
-        <p class="inside-subheading">What I'm listening to...</p>
-        <p class="inside-subheading-2"></p>
-        <p class="inside-subheading">Chicago Food Guide</p> 
-    </section>
+<div class="container">
+    <img src="./img/baher-khairy-Q3a0FHRS4BU-unsplash.jpg" class="img-fluid image-bg-fixed-height" alt="Responsive image" max-width=100%>
+    <div class="carousel-caption">
+            <h1>Welcome to Katie's <br>Chicago Food Guide</h1>
+    </div>
+</div>
 
-    <!--footer-->
-    <footer class="footer">
-        <span>mcbride.katieb@gmail.com</span>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="./img/heather-ford-Fq54FqucgCE-unsplash.jpg" class="img-fluid" alt="Responsive image" max-width=100%></img>
+            <div class="carousel-caption">
+                    <h1>Must eat donut shops: <br>Do-Rite Donuts<br>Doughnut Vault<br>Firecakes</h1>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="./img/ian-dooley-TLD6iCOlyb0-unsplash.jpg" class="img-fluid" alt="Responsive image" max-width=100%></img>
+            <div class="carousel-caption">
+                    <h1>Must eat ice cream: <br>Jeni's Ice Cream<br>Eataly<br>Go back to Jeni's</h1>
+            </div>
+        </div>
+    </div>
+</div>
 
-    </footer>
+<div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./img/luis-quintero-LYILO2HfkC8-unsplash.jpg" class="img-fluid" alt="Responsive image" max-width=100%></img>
+                <div class="carousel-caption">
+                        <h1>Hot Dogs <br>Portillo's<br>Hot Doug's</h1>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/kimiya-oveisi-bsZ-dG3ZMMo-unsplash.jpg" class="img-fluid" alt="Responsive image" max-width=100%></img>
+                <div class="carousel-caption">
+                        <h1>DEEEEEP dish pizza: <br>Giordanos<br>Lou Malnati's<br>Gino's East</h1>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="./img/davisco-5E5N49RWtbA-unsplash.jpg" class="img-fluid" alt="Responsive image" max-width=100%></img>
+                <div class="carousel-caption">
+                        <h1>Buttoned up eats: <br>Cabra<br>Au Cheval<br>Momotaro</h1>
+                </div>
+            </div>
+        </div>
+</div>
+
+<nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+          <a>Chicago Food Guide</a>
+        </a>
+</nav>
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
